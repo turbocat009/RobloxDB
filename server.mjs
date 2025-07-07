@@ -1,8 +1,6 @@
 import http from 'http';
 import { URL } from 'url';
 
-const serverless = require('serverless-http');
-
 import database from './database.json' with { type: 'json' };
 
 const server = http.createServer((req, res) => {
